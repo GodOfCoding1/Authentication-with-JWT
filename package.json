@@ -1,0 +1,35 @@
+{
+    "name": "jwt_athuthetication",
+    "version": "1.0.0",
+    "description": "a login page with authentication",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/GodOfCoding1/Authentication-with-JWT.git"
+    },
+    "keywords": [
+        "JWT",
+        "Authentication"
+    ],
+    "author": "madhav",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/GodOfCoding1/Authentication-with-JWT/issues"
+    },
+    "homepage": "https://github.com/GodOfCoding1/Authentication-with-JWT#readme",
+    "dependencies": {
+        "@hapi/joi": "^17.1.1",
+        "bcryptjs": "^2.4.3",
+        "dotenv": "^9.0.2",
+        "express": "^4.17.1",
+        "fastest-validator": "^1.11.0",
+        "joi": "^17.4.0",
+        "joy": "^0.1.1",
+        "mongoose": "^5.12.10",
+        "nodemon": "^2.0.7"
+    }
+}
